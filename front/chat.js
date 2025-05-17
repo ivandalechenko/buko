@@ -49,7 +49,7 @@ export default () => {
                 chatInput.value = "";
                 addLoader()
 
-                const url = 'https://api.buko.meme/chat';
+                const url = 'https://api.bukothegambler.biz/chat';
                 // const url = 'http://localhost:5000/chat';
 
                 try {
