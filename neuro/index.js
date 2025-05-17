@@ -10,7 +10,7 @@ const app = express()
 
 app.use(cors({
     credentials: true,
-    origin: [process.env.CLIENT_URL, 'http://localhost:5173/', 'https://1jfqnl4w-5173.euw.devtunnels.ms']
+    origin: ['https://www.bukothegambler.biz', 'https://bukothegambler.biz', 'http://localhost:5173/', 'https://1jfqnl4w-5173.euw.devtunnels.ms']
 }));
 app.use(express.json());
 app.use(cookieParser());
